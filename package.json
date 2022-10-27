@@ -1,0 +1,35 @@
+{
+  "name": "express-devcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "db": "nodemon config/db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonaldCastro1/express-devcamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonaldCastro1/express-devcamp/issues"
+  },
+  "homepage": "https://github.com/RonaldCastro1/express-devcamp#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-list-endpoints": "^6.0.0",
+    "mongoose": "^6.6.6",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.3",
+    "sequelize-cli": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

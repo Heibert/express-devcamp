@@ -8,12 +8,7 @@ module.exports = {
         email: 'ronald@gmial.com',
         password: '123456'
      },
-    {
-      username: 'Ronald Castro',
-      email: 'castro@gmial.com',
-      password: '123456'
-    }], {});
-   
+    ], {});
   },
 
   async down (queryInterface, Sequelize) {
